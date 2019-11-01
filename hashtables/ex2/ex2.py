@@ -16,7 +16,7 @@ def reconstruct_trip(tickets, length):
     hashtable = HashTable(length)
     route = [None] * length
     
-    start = None  # starting destination
+    start = None  ## starting destination
     route = [] #route list to be returned
     source = None  # source of the next destination
     #next source === current destination
